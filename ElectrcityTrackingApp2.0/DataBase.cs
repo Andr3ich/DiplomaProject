@@ -4,7 +4,7 @@ namespace ElectrcityTrackingApp2._0
 {
     internal class DataBase
     {
-        private SqlConnection sqlConnection = new SqlConnection(@"Data Source=BEQUIET;Initial Catalog=ElectricityTracking;Persist Security Info=True;User ID=sa;Password=1q2w3e4r5t;TrustServerCertificate=True");
+        private SqlConnection sqlConnection = new SqlConnection(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=ElectricityTracking;Integrated Security=True;Trust Server Certificate=True");
 
         public void openConnection()
         {

@@ -12,7 +12,7 @@ namespace ElectrcityTrackingApp2._0
 
     public partial class DeviceManagementForm : Form
     {
-        private string connectionString = @"Data Source=BEQUIET;Initial Catalog=ElectricityTracking;Persist Security Info=True;User ID=sa;Password=1q2w3e4r5t;TrustServerCertificate=True";
+        private string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=ElectricityTracking;Integrated Security=True;Trust Server Certificate=True";
         private MainForm mainForm;
         private GunaChart pieChart;
         private GunaPieDataset pieDataset;

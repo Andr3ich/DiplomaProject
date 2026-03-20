@@ -50,7 +50,7 @@ namespace ElectrcityTrackingApp2._0
             dataBase.closeConnection();
         }
 
-        private Boolean CheckUser(string loginUser)
+        public Boolean CheckUser(string loginUser)
         {
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
